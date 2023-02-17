@@ -12,7 +12,7 @@ The track must meet 2 conditions:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* It must be a concave polygon.
 
 
-###### ➢ Track geometry generation
+##### ➢ Track geometry generation
 
 Generating the race track can be done according to the following steps:
 
@@ -28,12 +28,12 @@ With the two sets (interior and exterior), we can build the track surface. Let's
 Thus, if we apply the same thing for all the points in both sets, we get the track.
 
 
-###### ➢ Moving dynamic obstacles
+##### ➢ Moving dynamic obstacles
 
 On the track, besides the player's car, other cars (opponents) must move on a predefined path parallel to the set of points that generate the track. This path can be obtained with the technique presented above.
 
 
-###### ➢ Generating trees next to the track
+##### ➢ Generating trees next to the track
 
 In addition to the track, decorative trees are located. At least one tree must be constantly visible on the screen (requires high tree density). Trees should not block the track.
 
@@ -43,17 +43,17 @@ In addition to the track, decorative trees are located. At least one tree must b
 Of all the cars created on the track, one of them is the player's car. It can be controlled using the W, A, S, D keys, where W-S represents the forward-backward movement, and A-D will change the orientation of the car.
 
 
-###### ➢ Camera control
+##### ➢ Camera control
 
 The player's perspective will be a third-person one, so the camera is positioned behind the car, looking at it. For the smoothest control, the car will remain centered on the camera direction, so when the A-D keys are pressed, both the car and the camera will rotate. Moving forward-backward (W-S) will involve moving the car according to the camera's rotation.
 
 
-###### ➢ Checking if the car is on the track
+##### ➢ Checking if the car is on the track
 
 For this, we use the Triangle Area algorithm, which is described here: https://www.baeldung.com/cs/check-if-point-is-in-2d-triangle.
 
 
-###### ➢ Dynamic obstacle collision checking
+##### ➢ Dynamic obstacle collision checking
 
 In order to have interaction with enemy vehicles, we need to detect them. This detection involves checking the position of the player's vehicle in relation to each enemy vehicle. To do this, a sphere-sphere collision check is performed. 
 
