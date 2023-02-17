@@ -9,9 +9,8 @@ To generate a track on which the car will move, we initially need a set of point
 The track must meet 2 conditions:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* There must be no right angle between any two consecutive segments. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* It must be a concave polygon.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* It must be a concave polygon. <br>
 
-<br>
 #### ➢ Track geometry generation
 
 Generating the race track can be done according to the following steps:
@@ -25,9 +24,9 @@ To generate the geometry of the track (a 2D surface), we need 2 sets of points: 
 
 With the two sets (interior and exterior), we can build the track surface. Let's assume that we have the outer points r1, r2, r3, and the inner points a1, a2, a3. The four triangles (r1, a1, a2), (r1, a2, r2), (r2, a2, a3), (r2, a3, r3) must be constructed.
 
-Thus, if we apply the same thing for all the points in both sets, we get the track.
+Thus, if we apply the same thing for all the points in both sets, we get the track. <br>
 
-<br>
+
 #### ➢ Moving dynamic obstacles
 
 On the track, besides the player's car, other cars (opponents) must move on a predefined path parallel to the set of points that generate the track. This path can be obtained with the technique presented above.
