@@ -23,7 +23,7 @@ Generating the race track can be done according to the following steps:
 
 To generate the geometry of the track (a 2D surface), we need 2 sets of points: one interior and one exterior. Each exterior segment is (approximately) parallel to its interior counterpart. From a set of points, we can generate as many sets of points parallel to the initial set (parallelism at the segment level) as we need.
 
-![alt text](https://imgur.com/a/4Ucqg62)
+![1](https://user-images.githubusercontent.com/73998092/219688877-e19de981-7552-408e-aca2-da6acbf4c86d.PNG)
 
 With the two sets (interior and exterior), we can build the track surface. Let's assume that we have the outer points r1, r2, r3, and the inner points a1, a2, a3. The four triangles (r1, a1, a2), (r1, a2, r2), (r2, a2, a3), (r2, a3, r3) must be constructed.
 
