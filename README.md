@@ -8,7 +8,7 @@ To generate a track on which the car will move, we initially need a set of point
 
 The track must meet 2 conditions:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* There must be no right angle between any two consecutive segments.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* There must be no right angle between any two consecutive segments. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* It must be a concave polygon.
 
 
