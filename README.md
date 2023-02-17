@@ -16,10 +16,10 @@ The track must meet 2 conditions:
 
 Generating the race track can be done according to the following steps:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Create the points of a polygon that defines the race track.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Create two sets of additional points, inside and outside the polygon that defines the track. The points can be created along the perpendicular of each segment. 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Create the edges between the points of the interior and exterior polygon.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Generate the triangles between the points of the two polygons. The triangles are created in a single mesh object.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Create the points of a polygon that defines the race track. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Create two sets of additional points, inside and outside the polygon that defines the track. The points can be created along the perpendicular of each segment. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Create the edges between the points of the interior and exterior polygon. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Generate the triangles between the points of the two polygons. The triangles are created in a single mesh object. <br>
 
 To generate the geometry of the track (a 2D surface), we need 2 sets of points: one interior and one exterior. Each exterior segment is (approximately) parallel to its interior counterpart. From a set of points, we can generate as many sets of points parallel to the initial set (parallelism at the segment level) as we need.
 
@@ -69,5 +69,5 @@ When an intersection between the player's vehicle and a dynamic obstacle is dete
 A minimap is rendered in one of the corners of the screen.
 To view the scene from above, the following is done:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* The camera position is moved above the vehicle (and consequently, the center of the camera's position);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* he camera is switched to an orthographic projection.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* The camera position is moved above the vehicle (and consequently, the center of the camera's position); <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* he camera is switched to an orthographic projection. <br>
