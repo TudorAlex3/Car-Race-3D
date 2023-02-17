@@ -11,7 +11,7 @@ The track must meet 2 conditions:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* There must be no right angle between any two consecutive segments. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* It must be a concave polygon.
 
-
+<br>
 #### ➢ Track geometry generation
 
 Generating the race track can be done according to the following steps:
@@ -27,12 +27,12 @@ With the two sets (interior and exterior), we can build the track surface. Let's
 
 Thus, if we apply the same thing for all the points in both sets, we get the track.
 
-
+<br>
 #### ➢ Moving dynamic obstacles
 
 On the track, besides the player's car, other cars (opponents) must move on a predefined path parallel to the set of points that generate the track. This path can be obtained with the technique presented above.
 
-
+<br>
 #### ➢ Generating trees next to the track
 
 In addition to the track, decorative trees are located. At least one tree must be constantly visible on the screen (requires high tree density). Trees should not block the track.
