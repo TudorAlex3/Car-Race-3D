@@ -53,7 +53,7 @@ The player's perspective will be a third-person one, so the camera is positioned
 For this, we use the Triangle Area algorithm, which is described here: https://www.baeldung.com/cs/check-if-point-is-in-2d-triangle.
 
 
-##### ➢ Dynamic obstacle collision checking
+#### ➢ Dynamic obstacle collision checking
 
 In order to have interaction with enemy vehicles, we need to detect them. This detection involves checking the position of the player's vehicle in relation to each enemy vehicle. To do this, a sphere-sphere collision check is performed. 
 
