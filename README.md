@@ -2,6 +2,9 @@
 
 This is the implementation of a partial car racing game. The game includes the race track, controlling the car on the track, a set of dynamic obstacles that will follow a predefined route on the track and replace the opponent cars in the race.
 
+
+
+
 ### Race Track
 
 To generate a track on which the car will move, we initially need a set of points that define it. The set consists of points in the XOZ plane (2D).
@@ -38,6 +41,8 @@ On the track, besides the player's car, other cars (opponents) must move on a pr
 In addition to the track, decorative trees are located. At least one tree must be constantly visible on the screen (requires high tree density). Trees should not block the track.
 
 
+
+
 ### Car Control
 
 Of all the cars created on the track, one of them is the player's car. It can be controlled using the W, A, S, D keys, where W-S represents the forward-backward movement, and A-D will change the orientation of the car.
@@ -62,6 +67,8 @@ Sphere-Sphere collision: https://developer.mozilla.org/enUS/docs/Games/Technique
 The spheres would have their centers at the center of the vehicle, and the radius of the sphere represents the collision detection distance.
 
 When an intersection between the player's vehicle and a dynamic obstacle is detected, the player's vehicle must stop. Any key pressed for movement or rotation control should no longer change the position or orientation of the vehicle. This stopping effect disappears when there is no longer an intersection.
+
+
 
 
 ### Minimap
