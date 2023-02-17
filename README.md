@@ -2,7 +2,7 @@
 
 This is the implementation of a partial car racing game. The game includes the race track, controlling the car on the track, a set of dynamic obstacles that will follow a predefined route on the track and replace the opponent cars in the race.
 
-<br><br>
+<br>
 ### Race Track
 
 To generate a track on which the car will move, we initially need a set of points that define it. The set consists of points in the XOZ plane (2D).
